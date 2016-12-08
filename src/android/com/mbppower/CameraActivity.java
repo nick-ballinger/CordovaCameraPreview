@@ -341,7 +341,7 @@ public class CameraActivity extends Fragment {
                 code = null;
             }
         } catch (Exception e) {
-//            this.failPicture("Error compressing image.");
+		// this.failPicture("Error compressing image.");
         }
         jpeg_data = null;
     }
@@ -566,7 +566,7 @@ class Preview extends RelativeLayout implements SurfaceHolder.Callback{
         } catch (IOException exception) {
             Log.e(TAG, exception.getMessage());
         }
-//        requestLayout();
+	// requestLayout();
     }
 
     @Override
